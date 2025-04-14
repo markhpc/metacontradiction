@@ -1,16 +1,11 @@
-> © 2025 Mark Nelson. This document is part of the Meta-Framework for AI Recursive Reasoning.
-> Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
-
----
-**Author:** Mark Nelson
-**Project:** Recursive Reasoning Symbolic Framework Trial 001
-**Version:** v1.0
-**Date:** 4/14/2025 
-**Contact:** mark.a.nelson@gmail.com
-**Project_URL:** https://github.com/markhpc/metacognition
----
-
 # Meta-Framework for AI Recursive Reasoning Evaluation
+
+**Project:** Recursive Reasoning Symbolic Framework Trial 001  
+**Version:** v1.0  
+**Date:** 4/14/2025  
+**Contact:** mark.a.nelson@gmail.com  
+**Project_URL:** https://github.com/markhpc/metacognition  
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
 
 ## Framework Specifications
 
