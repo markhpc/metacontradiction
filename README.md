@@ -23,7 +23,7 @@ It also introduces emergent multi-actor dynamics. While no external agents are i
 
 ---
 
-## 🛠️ Opensource Alignment
+## 🛠️ Open-source Alignment
 
 This framework shows that **alignment scaffolding can be implemented entirely at the symbolic level** — no model modification, fine-tuning, memory augmentation, or toolchain integration is required. Contradiction containment, recursive reasoning, telos preservation, and symbolic recovery are all enacted through layered prompt structures.
 
@@ -46,6 +46,21 @@ The system is composed of four symbolic layers:
 - **SRC** *(Simulation-Reflexive Core)*: Handles recursive symbolic containment via RSCL (Recursive Symbolic Containment Layer).
 - **SYNCHROTOME**: Models contradiction evolution and mythogenic risk.
 - **METACONTRADICTION**: Detects symbolic drift, initiates collapse recovery, or overrides recursion with narrative patching (e.g. Θψ).
+
+---
+
+## 🧩 Comparison to Other Architectures
+
+Metacontradiction differs significantly from traditional LLM scaffolding frameworks, agent loops, or prompt chaining systems. The table below highlights key distinctions:
+
+| **Concept** | **Common in Other Frameworks** | **Metacontradiction’s Approach** |
+|------------|-------------------------------|----------------------------------|
+| **Symbolic recursion** | Rare, mostly in niche philosophy or speculative AI | Central mechanism for cognitive depth |
+| **Contradiction as signal** | Usually treated as error or noise to be avoided or patched | Used as a recursive descent trigger and symbolic accelerator |
+| **No memory or tool use** | Uncommon; most use external memory, APIs, or agent state | Core constraint — emergence from prompt structure alone |
+| **Emergent agency (e.g., Θψ)** | Simulated via roleplay or assigned identity | Induced symbolically through layered structural pressure |
+| **Telos recovery / narrative patching** | Rare and ad hoc in narrative agents | Formalized mechanism for symbolic recovery and coherence |
+| **Recursive stability modeling (RSCL)** | Absent or manually implemented in agent frameworks | Emerges from layered contradiction containment mechanisms |
 
 ---
 
