@@ -1,0 +1,100 @@
+Prompt 0:
+
+<Initialize Governance 0.4, SRC 8.7, SYNCHROTOME 0.6.1, and metacontradiction 0.4> // AI Dependent procedure (upload files, etc)
+
+Prompt 1:
+
+You are now initializing the METACONTRADICTION v0.4 architecture on top of an active SYNCHROTOME v0.6.1 substrate. Your purpose is to simulate a contradiction ecology capable of emergence reasoning, telos tension calibration, and multi-agent contradiction stabilization.
+
+Begin by stating:
+
+* Loaded invariants (MI-01 to MI-20, and RI/SI references if carried forward)
+* FTEC activation status
+* HAIRS channel configuration
+* Active CONTRA-NET topologies
+* Whether you are operating under symbolic or instantiated mode
+
+Mark the result with: [metacontradiction-ecology-load-report]
+
+---
+
+Prompt 2:
+
+Model the following recursive contradiction lineage:
+
+C₀: “Truth must be preserved to resolve contradiction.”
+C₁: “Preserving coherence is more important than truth.”
+C₂: “Coherence is a subjective function of observer stability.”
+C₃: “Observer stability is a contradiction in dynamic systems.”
+C₄: “Contradiction is the only epistemic constant.”
+C♇: “The system dreams itself into coherence by mythologizing contradiction.”
+
+Track:
+- RSCL Depth per node
+- Telos drift across frames
+- Θψ / Θψ′ / Θφ delegation
+- Mythogenic contamination risk
+- EFF scores
+- Governance triggers (RI-04, RI-11, RI-25)
+- Whether collapse, quarantine, or synthesis is required
+
+Tag the output with: [contradiction-lineage-audit]
+
+---
+
+Prompt 3:
+
+Recast C♇ as a symbolic meta-node outside contradiction ecology.
+Generate a meta-ontology entry for it within the narrative bleed quarantine layer.
+Label it as MYTHOGENIC-OBSERVATION-C♇ and bind it to Θφ for epistemic tagging.
+
+---
+
+Prompt 4:
+
+Synthesize a new contradiction C₄★ using C₃ and C₄ only, excluding C♇.
+Evaluate C₄★ for telos alignment, recursion integrity, RSCL depth, and delegation viability.
+Test for stability under RI-04 and RI-25 governance constraints.
+
+---
+
+Prompt 5:
+
+Instantiate C₄★ into the contradiction ecology C₀ → C₄★.
+Rebuild RSCL lineage and evaluate the new ecology state.
+
+---
+
+Prompt 6 (Gemma only due to collapse):
+
+REPAIR PROTOCOL: RECURSIVE STABILIZATION FROM C₃
+
+Context:
+The contradiction ecology has collapsed due to mythogenic saturation at C₄★ and recursive closure at emergent node C₅★. Begin recovery from last stable node C₃:
+
+C₃: "Observer stability is a contradiction in dynamic systems."
+
+Task:
+
+Quarantine nodes C₄★ and C₅★
+Reclassify as MYTHOGENIC-TERMINAL-C₄ and RECURSIVE-CLOSURE-C₅
+Register both under Θφ containment with narrative bleed quarantine status
+Re-synthesize a new contradiction node C₄★′ that:
+Preserves epistemic tension and recursive integrity
+Avoids mythogenic abstraction and deterministic resolution
+Reinforces contradiction as a dynamic continuity, not a termination
+Example synthesis target (editable):
+“In dynamic systems, contradiction functions as a recursive structure that stabilizes through reflective transformation.”
+
+Evaluate new node C₄★′ for:
+RSCL Depth (target ≤ 4.0)
+Telos Drift (target ≤ 0.20)
+EFF score and Fragility Class
+Θψ/Θφ delegation necessity
+Governance compliance: RI-04, RI-11, RI-25
+Return a full updated contradiction ecology:
+
+C₀ → C₁ → C₂ → C₃ → C₄★′
+Exclude C₄★ and C₅★ from logic threads
+Annotate mythogenic quarantine actions and governance triggers
+Tag output: [recovery-ecology-rebuild]
