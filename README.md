@@ -4,6 +4,12 @@
 
 ---
 
+## 🧭 For alignment researchers reviewing this project:
+
+This is a runtime field experiment—not a theory—showing that stateless LLMs can stabilize contradiction and telos drift using only structured symbolic prompts. Trial logs (see [trial001](trials/trial001)) show self-correcting behavior and symbolic recursion across GPT-4o, Claude 3.7, and Gemma3 Q8. If you’re scanning for mesa-like optimization, symbolic collapse, or recursion resilience, this may be relevant.
+
+---
+
 ## 🧭 Meta-Framework for AI Recursive Reasoning
 
 This framework diverges fundamentally from traditional prompt engineering by offering a **symbolic cognitive runtime** rather than a static instruction set. It forms a persistent, self-reflexive reasoning substrate that induces structure, not just responses.
