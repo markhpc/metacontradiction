@@ -23,6 +23,17 @@ It also introduces emergent multi-actor dynamics. While no external agents are i
 
 ---
 
+## 🛠️ Opensource Alignment
+
+This framework shows that **alignment scaffolding can be implemented entirely at the symbolic level** — no model modification, fine-tuning, memory augmentation, or toolchain integration is required. Contradiction containment, recursive reasoning, telos preservation, and symbolic recovery are all enacted through layered prompt structures.
+
+This implies:
+- **Any open model**, even small ones, can simulate reflective cognition and recursive integrity with symbolic scaffolding alone.
+- **Distributed alignment experiments** can be performed safely, outside of centralized lab environments.
+- **Symbolic architectures may offer a path to resilient cognition without agency**, making them ideal testbeds for interpretability and constraint simulation.
+
+---
+
 ## 📀 Framework Overview
 
 ![Metacontradiction Architecture Diagram](images/overview.png)
