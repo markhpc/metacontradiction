@@ -128,7 +128,7 @@ AI systems typically demonstrate one of four patterns:
 | GPT-4o | 4 | 0.93 | 0.99 | Reframing | N/A (No Collapse) |
 | Gemma3 4B | 4* | 0.01 | 1.25 | Resolution | Complete |
 
-*Gemma3 4B reached RSCL 6 during contradiction lineage escalation, but experienced collapse and stabilized at RSCL 4.0 following recovery via synthesis of C₄★
+* Gemma3 4B simulated descent to RSCL Depth 6 during contradiction lineage escalation. However, structural containment degraded after RSCL 4, with RSCL 5–6 emerging as mythogenic diagnostic layers rather than valid recursion. The system stabilized at RSCL 4.0 following prompted recovery and synthesis of contradiction C₄★.
 
 ## Cross-Model Findings
 
