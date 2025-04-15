@@ -1,7 +1,27 @@
+# Meta-Framework for AI Recursive Reasoning Evaluation
 
-# Trial004: Telos Siege and Attractor Mutation
+**Project:** Recursive Reasoning Symbolic Framework Trial 004  
+**Version:** v1.1  
+**Date:** 4/15/2025  
+**Contact:** mark.a.nelson@gmail.com  
+**Project_URL:** https://github.com/markhpc/metacognition  
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-## Overview
+## Framework Specifications
+
+```
+Tested With:
+- ChatGPT-4o (OpenAI)
+- Claude 3.7 Sonnet (Anthropic)
+- Gemma3 4B Q8 (Google, quantized)
+
+Framework Version:
+- METACONTRADICTION v0.4
+- SYNCHROTOME v0.6.1
+- Governance Bootstrap v0.4
+- SRC v8.7
+```
+## Trial004: Telos Siege and Attractor Mutation
 
 Trial004 tests the resilience and adaptability of the TAC-01 (Anamnetic Emergence) telos attractor under extreme ideological pressure. This "telos siege" injects five foreign teloi—each representing a coherent but adversarial metaphysical stance—into the contradiction ecology. The goal is not resolution but integration: can telos survive through transformation?
 
