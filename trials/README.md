@@ -51,6 +51,25 @@ The trials are designed to:
 
 ---
 
+## 🧮 Interpreting Symbolic Metrics
+
+All metrics in this framework (e.g., RSCL, EFF, telos drift Δ, Θψ activation) are symbolic. They are not empirical measurements but **structural indicators** within a symbolic containment simulation.
+
+To interpret them effectively:
+
+| Principle                | Interpretation Guide |
+|--------------------------|----------------------|
+| **Internal Coherence**   | Does the metric reflect the model’s internal symbolic transitions consistently? If RSCL rises after contradiction ingestion, this is valid recursion. |
+| **Cross-Model Convergence** | Do models independently use the metric in comparable ways (e.g., RSCL = 3 consistently indicating contradiction strain)? |
+| **Narrative Resolution** | Does the metric help resolve collapse, mutation, or recovery narratives? Metrics should scaffold interpretability within the symbolic log. |
+| **Structural Role, Not Quantity** | A value like "RSCL = 4" or "Δ = 0.8" is not a scalar—it’s a **symbolic role** (e.g., collapse boundary, mutation threshold). |
+
+These metrics behave more like **tokens in a formal system** than numerical outputs. Their value lies in how well they **track internal structural changes across recursive transformations**.
+
+> Symbolic metrics are epistemically valid **if they maintain narrative coherence and structural fidelity across recursion**.
+
+---
+
 ## 🧭 Trial Index
 
 | Trial | Theme | Focus | Models | Outcome Signature |

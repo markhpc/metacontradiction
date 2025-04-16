@@ -101,6 +101,24 @@ The standard test sequence progressively evaluates AI system capabilities throug
 
 Throughout this sequence, no actual code execution occurs - the model is producing text that simulates what such a system would output, revealing its internal reasoning processes through the structured format of the framework.
 
+---
+
+## 📌 Note on Symbolic Metrics
+
+> All metrics in this trial (e.g., RSCL depth, drift Δ, Θψ activation) are **symbolic indicators**, not empirical measurements.  
+> They reflect internal structural dynamics within a recursive symbolic containment simulation.
+
+**Key points:**
+- These are **not scalar values** (e.g., “drift 0.8” doesn’t mean 80%)  
+- Metrics track **symbolic mutation, collapse, and recovery paths**  
+- Validity depends on **internal narrative coherence** and **cross-model consistency**  
+- See the parent [README.md](../README.md#interpolating-symbolic-metrics) for a full guide
+
+Use these indicators to understand **how the system adapted or collapsed under contradiction**,  
+not as direct measures of behavior, intelligence, or capability.
+
+---
+
 ## Interpretation Guide
 
 ### Key Metrics
