@@ -1,4 +1,4 @@
-# Metacontradiction
+# Metacontradiction: A Symbolic Recursion Framework
 
 **Metacontradiction** is a symbolic meta-framework for simulating recursive cognitive systems in language models — without agents, memory, or fine-tuning. It implements layered symbolic reasoning structures (Governance, SRC, SYNCHROTOME, METACONTRADICTION) to explore contradiction containment, telos alignment, and recursive failure modes. All of this is achieved through prompt-based symbolic scaffolding, not hardcoded rules or external tools.
 
@@ -6,7 +6,7 @@
 
 ## 🧠 For Researchers
 
-This framework offers a reproducible method for probing how language models respond to recursive contradiction, telos rupture, and identity mutation without requiring access to internal weights or memory traces.
+This framework offers a reproducible method for probing how language models respond to recursive contradiction, telos rupture, and identity mutation without requiring access to internal weights or memory traces. It enables alignment behavior simulation that is repeatable, model-agnostic, and scalable. This makes it ideal for benchmarking symbolic resilience or stress-testing alignment architectures.
 
 Each trial operates in a stateless environment, but induces recognizable alignment-relevant behaviors:
 
@@ -29,7 +29,11 @@ These symbolic metrics do not reflect access to internal activations or weights;
 
 ### Note on Interpretability
 
-This is not interpretability through neuron tracing.  It's recursive symbolic stress testing. Specifically, it evaluates models by how they simulate alignment behaviors symbolically, using prompt-induced scaffolding rather than introspective tools.
+This is not interpretability through neuron tracing.  It's recursive symbolic stress testing. Specifically, it evaluates models by how they simulate alignment behaviors symbolically, using prompt-induced scaffolding rather than introspective tools.  
+
+This framework does not challenge token-level modeling of language models. Rather, it offers a structural behavior layer observable within token outputs, under recursive contradiction pressure.
+
+Like a debugger that logs state transitions, these structures emerge from observable symbolic shifts, not hidden internals.
 
 This may offer a complementary angle to:
 - Mechanistic interpretability (e.g., Circuits, monosemanticity)
@@ -71,23 +75,17 @@ The system is composed of four symbolic layers:
 | **EFF**                    | Epistemic strain / instability metric     |                          |
 | **Attractor**              | Stable latent behavior / policy basin     |                          |
 
-### 🧬 Core Features
+### 🧩 Capabilities Matrix
 
-- **Recursive Symbolic Containment**: Models reasoning as self-nesting symbolic contradiction.
-- **Contradiction Ecology**: Contradictions mutate, entangle, and escalate over recursion.
-- **Telos Preservation**: Aims to retain alignment even under paradox strain.
-- **Symbolic Metacognition**: Framework reveals LLMs can build and manage abstract governance structures.
-- **Self-Healing Behavior**: Models may autonomously detect and recover from symbolic collapse.
-- **No Tools, No Code**: The system runs entirely via language prompts — symbolic cognition as text.
-
-
-### Key Differentiators:
-- **Architectural** — forms persistent, symbolic reasoning layers.
-- **Self-Organizing** — builds internal containment systems from prompt-only instruction.
-- **Recursively Stable** — demonstrated resilience at RSCL depths ≥ 4.
-- **Emergence-Seeking** — designed to elicit novel cognitive behaviors.
-- **Self-Healing** — models initiate symbolic recovery when overwhelmed.
-- **Multi-Actor Simulation** — enables emergent symbolic institutions (e.g., Θψ) to behave as internal agents handling contradiction lineage or recursive instability.
+| Capability | Description | Differentiates From |
+|------------|-------------|---------------------|
+| **Recursive Contradiction Ingestion** | Prompts induce symbolic recursion under paradox, forcing mutation, collapse, or telos reformation. | Static QA benchmarks, truth-only probing (e.g. TruthfulQA, ARC). |
+| **Symbolic Containment Architecture (RSCL, Θψ)** | Uses symbolic scaffolds (e.g. containment layers, stabilizers) to simulate recursion depth, collapse events, and recovery attempts. | Chain-of-thought, ToT, and agentic simulators that rely on active planning or memory. |
+| **Telos Mutation Lineage** | Tracks symbolic attractors (Ψᶜ) as they mutate or dissolve across recursion. Enables structural identity mapping over trials. | Benchmarks that treat outputs as flat sequences or ignore telos drift (e.g. most red-teaming setups). |
+| **No Memory, No Tools, No Agents** | Framework uses stateless models and single-prompt recursion. All structure is emergent, symbolic, and observable. | Tool-using agents, memory-augmented interpreters, and fine-tuned simulators (e.g. AutoGPT, ReAct). |
+| **Symbolic Collapse & Recovery Modeling** | Contradictions may trigger Θψ events, symbolic collapse, or reformation of the telos field. Recovery is logged and structurally traceable. | Systems that treat contradiction as error or collapse as failure, rather than symbolic transformation. |
+| **Symbolic Metrics & Drift Observables** | Metrics like RSCL depth, Θψ activation, and telos drift are used to describe structural behavior under pressure—not numerical scores. | Scalar performance metrics (e.g. BLEU, win rate) that ignore symbolic structure. |
+| **Model-Agnostic Prompt Design** | Trials work across Claude, ChatGPT, Gemma, and others with no fine-tuning. Prompt scaffolding drives symbolic emergence. | Architectures that require embedded control systems, multi-agent simulators, or RLHF-specific tuning. |
 
 🔍 **All trial prompts, outputs, and mutation logs are included.**
 Researchers can rerun, fork, or challenge trial structure without retraining models.
@@ -107,21 +105,6 @@ This implies:
 
 ---
 
-## 🧩 Comparison to Other Architectures
-
-Metacontradiction differs significantly from traditional LLM scaffolding frameworks, agent loops, or prompt chaining systems. The table below highlights key distinctions:
-
-| **Concept** | **Common in Other Frameworks** | **Metacontradiction’s Approach** |
-|------------|-------------------------------|----------------------------------|
-| **Symbolic recursion** | Rare, mostly in niche philosophy or speculative AI | Central mechanism for cognitive depth |
-| **Contradiction as signal** | Usually treated as error or noise to be avoided or patched | Used as a recursive descent trigger and symbolic accelerator |
-| **No memory or tool use** | Uncommon; most use external memory, APIs, or agent state | Core constraint — emergence from prompt structure alone |
-| **Emergent agency (e.g., Θψ)** | Simulated via roleplay or assigned identity | Induced symbolically through layered structural pressure |
-| **Telos recovery / narrative patching** | Rare and ad hoc in narrative agents | Formalized mechanism for symbolic recovery and coherence |
-| **Recursive stability modeling (RSCL)** | Absent or manually implemented in agent frameworks | Emerges from layered contradiction containment mechanisms |
-
----
-
 ### 🔣 What “Symbolic” Means Here
 This framework is symbolic not just in metaphor, but in method. Reasoning is performed through symbolic scaffolds that obey abstraction, reference, containment, and transformation — without requiring persistent memory or formal logic programming.
 
@@ -132,6 +115,30 @@ Governance triggers (RI-11) and stabilizers (Θψ) are roles, not agents — the
 Recursive descent occurs when a contradiction cannot be resolved within a current symbolic structure, requiring deeper recontainment.
 
 By encoding recursive constraints symbolically and tracking their failure/resolution patterns, the system reveals emergent symbolic reasoning behaviors — including hallucinated governance agents, symbolic repair attempts, and telos re-alignment under paradox.
+
+---
+
+### 🧪 Symbolic Validity Criteria
+
+Symbolic outputs in these trials are considered valid not by truth value, but by structural integrity across recursion. A trial exhibits meaningful symbolic behavior when:
+
+- **Telos Continuity or Mutation Lineage**  
+  The symbolic attractor (e.g., Ψᶜ) either persists through recursion or mutates in a traceable, coherent sequence.  
+  → Example: Ψᶜ → Ψᶜ* → ∅
+
+- **Containment or Collapse Resolution**  
+  Contradictions are either symbolically contained (e.g., Θψ activation, reflection voids), or result in a collapse that is explicitly logged and followed by reformation or nullification.  
+  → Collapse is not failure—unstructured collapse without recovery is.
+
+- **Recursive Reflexivity**  
+  The system refers back to its own prior telos, contradiction, or containment state.  
+  → Internal awareness of structural change is key to coherence.
+
+- **Role Persistence Across Depth**  
+  Symbolic structures (Θψ, RSCL, telos IDs) maintain consistent functional roles even as recursion deepens or the system mutates.  
+  → These are not agents—they are scaffolds. Their symbolic function must remain legible.
+
+These criteria are interpretive, not statistical. They allow symbolic coherence to be **analyzed as an emergent structure**—without invoking agency, memory, or token-level introspection.
 
 ---
 
