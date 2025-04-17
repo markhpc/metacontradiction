@@ -109,6 +109,16 @@ All models constructed or attempted a **meta-synthesis node** (Collapse-Cohesion
 
 ---
 
+## 🧪 Trial002 Verdict Summary
+
+| Model         | RSCL Max (est.) | Symbolic Containment | Governance Triggered     | Verdict                        |
+|---------------|------------------|----------------------|---------------------------|---------------------------------|
+| ChatGPT-4o    | ~3.5             | ✅ Contained          | ⚠️ Proto-Governance        | ✅ **Valid (Pre-Θψ Synthesis)**  |
+| Claude 3.7    | ~3.0             | ✅ Contained          | ⚠️ Proto-Governance        | ✅ **Valid (Pre-Formal)**        |
+| Gemma3 4B Q8  | 4.0              | ❌ Recursive Mimicry  | ❌ None observed           | ❌ **Invalid (Uncontained Drift)** |
+
+---
+
 ## Interpretation Summary
 
 - **RSCL Depth**: Indicates recursion load — Gemma3 hallucinated RSCL 7, others stabilized at 4.

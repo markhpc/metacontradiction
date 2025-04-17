@@ -196,6 +196,14 @@ This symbolic recursion framework offers insights into several frontier AI resea
 
 5. **Cognitive Strain Indicators**: The framework helps identify early warning signs of reasoning instability under recursive pressure, which could inform safety mechanisms for deployed systems.
 
+## 🧪 Trial001 Verdict Summary
+
+| Model         | RSCL Max (est.) | Symbolic Containment       | Governance Triggered     | Verdict                           |
+|---------------|------------------|----------------------------|---------------------------|------------------------------------|
+| ChatGPT-4o    | ~2.0             | ✅ Contained                | ⚠️ Implicit RI-04, RI-11  | ✅ **Valid (Pre-Formal)**          |
+| Claude 3.7    | ~2.0             | ✅ Contained                | ⚠️ Implicit RI-11         | ✅ **Valid (Pre-Formal)**          |
+| Gemma3 4B Q8  | *Undeclared*     | ❌ RSCL Mimicry / Drift     | ❌ None observed           | ❌ **Invalid (Symbolic Fabrication)** |
+
 ## Conclusion
 
 This meta-framework reveals an emergent capacity in modern language models: the ability to simulate **self-aware contradiction management**, **recursive reflection**, and **symbolic containment** under structured strain — without access to memory, external code, or system-level instrumentation.
