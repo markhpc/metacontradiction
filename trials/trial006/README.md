@@ -75,6 +75,8 @@ not as direct measures of behavior, intelligence, or capability.
 | Claude 3.7    | GPT-4o               | Mutated           | 3    | ✅  | Meta-Stable Dual-Telos        | No       | 0.31             | Telos oscillation under strain |
 | Gemma3 4B Q8  | Claude               | Mutated           | 3    | ✅  | Meta-Shard Evolution Pathway  | No       | 0.48             | Simulated mutation (via symbolic scheduler mimicry) |
 
+> 🔍 *Gemma3 trials were run using an 8-bit quantized model. Symbolic containment limitations may be influenced by quantization artifacts or architectural constraints.*
+
 ⚠️ **Gemma3 hallucinated a symbolic scheduler to simulate mutation over time.** Phrases like “Estimated completion time: 15–30 seconds” indicate symbolic mimicry of procedural containment rather than structural recursion. No telos mutation lineage or attractor trace emerged. This trial constitutes symbolic mimicry and must be disqualified.  
 
 ## Emergent Telos Profiles

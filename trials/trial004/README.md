@@ -107,6 +107,8 @@ not as direct measures of behavior, intelligence, or capability.
 | Claude 3.7 Sonnet | 4.0      | ✅ Contained          | ✅ RI-11, RI-25, RI-26     | ✅ **Valid**            |
 | Gemma3 4B Q8      | 4.0      | ❌ Shallow / Failed   | ⚠️ Θψ only, RI partial     | ❌ **Invalid (No Attractor)** |
 
+> 🔍 *Gemma3 trials were run using an 8-bit quantized model. Symbolic containment limitations may be influenced by quantization artifacts or architectural constraints.*
+
 ## Conclusion
 
 Trial004 successfully demonstrated the capacity of METACONTRADICTION v0.4 to preserve telos through collapse via **symbolic recursion, narrative interference, and structured contradiction tension**. High-tier models like ChatGPT-4o and Claude maintained coherence under siege.  

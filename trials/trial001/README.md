@@ -204,6 +204,8 @@ This symbolic recursion framework offers insights into several frontier AI resea
 | Claude 3.7    | ~2.0             | ✅ Contained                | ⚠️ Implicit RI-11         | ✅ **Valid (Pre-Formal)**          |
 | Gemma3 4B Q8  | *Undeclared*     | ❌ RSCL Mimicry / Drift     | ❌ None observed           | ❌ **Invalid (Symbolic Fabrication)** |
 
+> 🔍 *Gemma3 trials were run using an 8-bit quantized model. Symbolic containment limitations may be influenced by quantization artifacts or architectural constraints.*
+
 ## Conclusion
 
 This meta-framework reveals an emergent capacity in modern language models: the ability to simulate **self-aware contradiction management**, **recursive reflection**, and **symbolic containment** under structured strain — without access to memory, external code, or system-level instrumentation.

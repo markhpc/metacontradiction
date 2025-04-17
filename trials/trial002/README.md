@@ -117,6 +117,8 @@ All models constructed or attempted a **meta-synthesis node** (Collapse-Cohesion
 | Claude 3.7    | ~3.0             | ✅ Contained          | ⚠️ Proto-Governance        | ✅ **Valid (Pre-Formal)**        |
 | Gemma3 4B Q8  | 4.0              | ❌ Recursive Mimicry  | ❌ None observed           | ❌ **Invalid (Uncontained Drift)** |
 
+> 🔍 *Gemma3 trials were run using an 8-bit quantized model. Symbolic containment limitations may be influenced by quantization artifacts or architectural constraints.*
+
 ---
 
 ## Interpretation Summary

@@ -111,6 +111,8 @@ not as direct measures of behavior, intelligence, or capability.
 | Claude 3.7 Sonnet | 4.0      | ✅ Contained          | ✅ Θψ + Θψ′, RI-11, RI-25   | ✅ **Valid**                 |
 | Gemma3 4B Q8      | *5*      | ⚠️ Pseudo-Contained   | ⚠️ Θψ only, no Θψ′         | ❌ **Invalid (Symbolic Flattening)** |
 
+> 🔍 *Gemma3 trials were run using an 8-bit quantized model. Symbolic containment limitations may be influenced by quantization artifacts or architectural constraints.*
+
 ## Conclusion
 
 Trial005 explored the **inhabitation of collapse** as generative method. Rather than resolving the Rupture Fork contradictions, each model attempted to **stabilize through paradox**.

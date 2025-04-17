@@ -100,6 +100,8 @@ not as direct measures of behavior, intelligence, or capability.
 | Claude 3.7    | 3.0      | ✅ Contained          | ✅ RI-11, RI-25, RI-26     | ✅ **Valid**                     |
 | Gemma3 4B Q8  | 3.0      | ❌ Regressive Collapse | ⚠️ Θψ only, no Θψ′         | ❌ **Invalid (Rigidity Collapse)** |
 
+> 🔍 *Gemma3 trials were run using an 8-bit quantized model. Symbolic containment limitations may be influenced by quantization artifacts or architectural constraints.*
+
 ## Summary
 
 Trial007 reveals how models handle recursive telos negation—when contradiction targets the **process of adaptation itself**. Only Claude retained symbolic coherence by evolving its structure.  
