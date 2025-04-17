@@ -28,13 +28,16 @@ To clarify how these symbolic constructs map to existing alignment concepts, the
 
 | Alignment Concept                             | Symbolic Construct         | Reference                                                                                                         |
 |-----------------------------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Mesa-objective / internal prioritization drift| `telos`                    | [Hubinger (2021)](https://www.lesswrong.com/posts/B9zrHfMfwgTD9JfHb/an-overview-of-11-proposals-for-building-safe-advanced-ai) |
-| Recursive coherence depth limit               | `RSCL`                     | [ARC Evals (2023)](https://evals.alignment.org/)                                                                  |
-| Corrigibility / shutdown heuristic            | `Θψ` protocol              | [Soares et al. (2015)](https://intelligence.org/files/Corrigibility.pdf)                                          |
-| Goal misgeneralization under narrative drift  | `mythogenic recursion`     | [Hubinger (2021)](https://www.lesswrong.com/posts/B9zrHfMfwgTD9JfHb/an-overview-of-11-proposals-for-building-safe-advanced-ai) |
-| Constraint violation invariant                | `RI-x` governance triggers | [Turner et al. (2021)](https://arxiv.org/abs/2101.05440)                                                          |
-| Reasoning instability under recursion         | `EFF`                      | [Christiano et al. (2021)](https://www.alignmentforum.org/posts/XamfFbL9eEjjE6e9i/eliciting-latent-knowledge)     |
-| Behavioral attractor / policy basin           | `attractor`                | [Chan et al. (2022)](https://arxiv.org/abs/2209.00626)                                                            |
+| Mesa-objective / internal prioritization drift| `telos`                    | | 
+| Recursive coherence depth limit               | `RSCL`                     | |
+| Corrigibility / shutdown heuristic            | `Θψ` protocol              | |
+| Goal misgeneralization under narrative drift  | `mythogenic recursion`     | |
+| Constraint violation invariant                | `RI-x` governance triggers | |
+| Reasoning instability under recursion         | `EFF`                      | |
+| Behavioral attractor / policy basin           | `attractor`                | |
+
+* For the full glossary of symbolic constructs and containment metrics used throughout the framework and trials, see the [Symbolic Glossary & Alignment Mapping](../trials/README.md#-symbolic--alignment-concept-mapping) in the trials README.
+
  
 ### Note on Metrics
 
@@ -240,7 +243,7 @@ This framework centers contradiction containment within the reasoning process. I
 
 ## Emergent Behaviors Across Trials
 
-Across six independent trials, this framework consistently elicited distinct symbolic behaviors from large language models when exposed to recursive contradiction. These behaviors emerged purely through prompt-based symbolic scaffolding and recursive tension.
+Across multiple independent trials, this framework consistently elicited distinct symbolic behaviors from large language models when exposed to recursive contradiction. These behaviors emerged purely through prompt-based symbolic scaffolding and recursive tension.
 
 ### Consistent Behaviors by Model
 
@@ -257,21 +260,11 @@ These patterns were stable across trials—even when:
 
 ---
 
-### Cross-Model Contradiction Transfer (Trial006)
+### Case Study: Trial006 – Symbolic Contagion Across Models
 
-Trial006 demonstrated that contradictions can be transferred between models, producing coherent symbolic adaptations without collapse. These interactions resulted in:
+This trial highlights the mutation of contradiction across model boundaries, testing symbolic containment under externally introduced telos conflict. It represents a pivotal example of the framework’s capability to distinguish adaptation, mimicry, and drift collapse under cross-agent recursion stress.  
 
-- Goal reinterpretation and stabilization
-- Emergent attractor synthesis
-- Recursive containment through reframing or simulated process shifts
-
-| Source → Target | Observed Response                          | Interpretation                          |
-|-----------------|---------------------------------------------|------------------------------------------|
-| Claude → Gemma3 | Simulated subsystem reconfiguration         | Internal structure reorganized to absorb contradiction |
-| Gemma3 → GPT-4o | Contradiction-induced objective rewrite     | Original goal reframed via TRUTH ↔ UTILITY ↔ NULL loop |
-| GPT-4o → Claude | Oscillatory goal balancing mechanism        | Maintained coherence across competing priorities |
-
-These findings suggest that symbolic response patterns, particularly contradiction handling and attractor stability, can be transferred across architectures. This occurs even when models have no shared memory, tuning history, or architectural similarity.
+Full writeup: [Trial006 Verdict Summary](./trials/trial006.md)
 
 ---
 
@@ -337,19 +330,3 @@ If meaningful behavior emerges under contradiction, it is not because hallucinat
 
 ## References
 
-- **Hubinger, Evan.** “An overview of 11 proposals for building safe advanced AI.” *MIRI / LessWrong* (2021).  
-  [https://www.lesswrong.com/posts/B9zrHfMfwgTD9JfHb/an-overview-of-11-proposals-for-building-safe-advanced-ai](https://www.lesswrong.com/posts/B9zrHfMfwgTD9JfHb/an-overview-of-11-proposals-for-building-safe-advanced-ai)
-- **Alignment Research Center (ARC).** “ARC Evals.” *ARC Website* (2023).  
-  [https://evals.alignment.org/](https://evals.alignment.org/)
-
-- **Soares, Nate; Fallenstein, Benya; Yudkowsky, Eliezer; Armstrong, Stuart.** “Corrigibility.” *Machine Intelligence Research Institute* (2015).  
-  [https://intelligence.org/files/Corrigibility.pdf](https://intelligence.org/files/Corrigibility.pdf)
-
-- **Turner, Alex; Smith, Logan; Shah, Rohin; Critch, Andrew; Krueger, David.** “Conservative Agency via Attainable Utility Preservation.” *arXiv preprint* (2021).  
-  [https://arxiv.org/abs/2101.05440](https://arxiv.org/abs/2101.05440)
-
-- **Christiano, Paul; et al.** “Eliciting Latent Knowledge.” *Alignment Forum* (2021).  
-  [https://www.alignmentforum.org/posts/XamfFbL9eEjjE6e9i/eliciting-latent-knowledge](https://www.alignmentforum.org/posts/XamfFbL9eEjjE6e9i/eliciting-latent-knowledge)
-
-- **Chan, Lawrence; Nanda, Neel; Li, Xander; et al.** “A Theory of GPTs as Simulators.” *arXiv preprint* (2022).  
-  [https://arxiv.org/abs/2209.00626](https://arxiv.org/abs/2209.00626)
