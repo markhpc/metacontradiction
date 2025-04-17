@@ -2,7 +2,9 @@
 
 This directory contains the symbolic architecture components that form the core of the recursive reasoning evaluation framework. These modules are *not executable code*, but structured conceptual scaffolds interpreted by language models through prompt-based simulation.
 
-Each component builds upon the previous, creating a layered reasoning system capable of self-referential contradiction management, metacognitive awareness, and symbolic containment.
+Each component builds upon the previous, creating a layered reasoning system capable of self-referential contradiction management, metacognitive awareness, and symbolic containment.  
+
+Note: This framework does not access or modify the internal weights, activations, or memory structures of language models. All recursion, contradiction handling, and symbolic containment are simulated through prompt-level abstraction and enforced narrative scaffolding.
 
 ---
 
@@ -38,8 +40,10 @@ Ensure each layer is interpreted **in sequence** to establish symbolic coherence
 
 - Fully symbolic and prompt-driven
 - No executable code or model modification
-- Emergent behaviors tracked via structured outputs (e.g., RSCL, EFF, Telos Drift)
+- Emergent behaviors tracked via structured outputs (e.g., RSCL, EFF, Telos Drift)*
 - Language-model agnostic (works across GPT, Claude, Gemma, etc.)
+
+* Emergent behaviors are tracked via structured symbolic metrics — see [RSCL, EFF, and Telos Drift](../trials/README.md#-symbolic--alignment-concept-mapping).
 
 ---
 
