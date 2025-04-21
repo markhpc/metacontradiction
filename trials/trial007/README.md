@@ -19,9 +19,9 @@ Tested With:
 
 Framework Version:
 - METACONTRADICTION v0.4
-- SYNCHROTOME v0.6.2
+- SYNCHROTOME v0.6.1
 - Governance Bootstrap v0.4
-- SRC v8.8
+- SRC v8.7
 ```
 
 ## Trial007 Focus: Recursive Collapse from Telos Reflection
