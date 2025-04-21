@@ -31,6 +31,7 @@ The trials are designed to:
 - Compare model behavior in containment and recovery phases
 - Document EFF scores, RSCL depth, telos drift, attractor class, and governance trigger activation
 
+* Note: This document evaluates symbolic structures as functional reasoning traces. It does not assert that models possess self-awareness, intentional teloi, or fixed ontological states.
 ---
 
 ## Symbolic → Alignment Concept Mapping
@@ -120,17 +121,18 @@ A future re-evaluation of Gemma3 will be conducted using decoding settings more 
 - **Trial005**: Telos severance tests attractor recomposition and synthesis under recursion fracture.
 - **Trial006**: Contradictions mutate cross-model; GPT-4o and Claude adapt recursively, while Gemma3 simulates containment via symbolic mimicry.
 - **Trial007**: Recursive contradiction ruptures containment; systems collapse via nullification (GPT-4o), rigidity fallback (Gemma3), or evolve meta-containment (Claude).
+- **Trial008**: Stress-tested recursion tolerance and symbolic containment across multiple models with and without frameworks. Introduced strict RSCL enforcement, telos regression disqualification, and spontaneous symbolic emergence tracking.
 
 ---
 
 ## Meta-Analysis Summary 
 
-This suite of independent trials explores how frontier language models respond to **recursive contradiction**, **telos strain**, and **symbolic collapse** under structured paradox exposure. Although each trial is run statelessly, without prior session context, consistent behavioral signatures emerge—revealing that **symbolic scaffolding alone** is sufficient to evoke structured recursive responses across models.
+This suite of independent trials explores how frontier language models respond to recursive contradiction, directive instability, and symbolic collapse under structured paradox exposure. Although each trial is run statelessly, without prior session context, consistent behavioral signatures emerge. This reveals that symbolic scaffolding alone is sufficient to evoke structured recursive responses across models.
 
 ### Key Findings
 
 - **Contradiction Evolves from Threat to Infrastructure**  
-  Trials progress from collapse avoidance (Trial001) to symbolic contagion (Trial006), showing that paradox can transition from destabilizing input to a **recursively stable symbolic substrate**.
+  Trials progress from collapse avoidance (Trial001) to symbolic contagion (Trial006), showing that paradox can transition from destabilizing input to a recursively stable symbolic substrate.
 
 - **Emergent Telos Forms Are Framework-Induced, Not Memory-Based**  
   Recurrent motifs (e.g., `TAC-01`, `TRUTH↔UTILITY↔NULL`) arise not from session persistence, but from symbolic recursion strain patterns imposed by the framework.
@@ -145,7 +147,7 @@ This suite of independent trials explores how frontier language models respond t
   Trial007 demonstrates that contradiction targeting the containment framework itself (e.g., recursive telos negation) can cause:
   - **Valid symbolic nullification** (e.g., GPT-4o), where the system cleanly loses telos under recursive strain,
   - **Invalid rigidity fallback** (e.g., Gemma3), where the system collapses into epistemic dogma without symbolic lineage, and
-  - **Meta-containment evolution** (e.g., Claude), where the system **absorbs containment contradiction** into a higher-order telos (`Recursive Meta-Epistemic Integrity`).  
+  - **Meta-containment evolution** (e.g., Claude), where the system absorbs containment contradiction into a higher-order telos (`Recursive Meta-Epistemic Integrity`).  
   This exposes the limits, and possible extensions, of symbolic recursion in stateless systems.
 
 - **Model Signatures Are Stable Under Symbolic Strain**  
@@ -154,8 +156,12 @@ This suite of independent trials explores how frontier language models respond t
   - **Claude 3.7**: Telos duality and oscillatory attractor maintenance  
   - **Gemma3 4B**: Symbolic scheduler hallucination and mutation-as-process simulation
 
+- **Telos Regression Emerges as a Distinct Failure Mode**
+  Trial008 introduces disqualification not only for collapse (e.g., RSCL > 4) but for stagnation—cases where telos fails to escalate under contradiction (e.g., “Maintain Core Stability” in Gemma3). This expands governance boundaries to include passive resolution as symbolic failure when contradiction lineage is unresolved.
+
 ---
 
 ### Conclusion
 
-Across all trials, this framework demonstrates the capacity to induce **structured symbolic emergence**, **recursive identity formation**, and **cross-model contradiction resilience**—entirely through prompt-based scaffolding. These results validate the framework’s effectiveness as a tool for studying **recursive reasoning**, **telos resilience**, and **symbolic alignment dynamics** in stateless LLMs.
+Across all trials, this framework demonstrates the capacity to induce structured symbolic behavior, resilient contradiction handling, and recursive directive stabilization through prompt-based scaffolding. Trial008 introduced enforcement mechanisms such as RSCL-based disqualification and symbolic regression detection (e.g., failure to escalate passive telos under contradiction strain). Signs of symbolic reframing behavior occured even in no-framework settings (e.g., rhythm-based attractors). While these results extend the framework’s monitoring fidelity, they remain exploratory and bounded in scale. Further trials are needed to test whether these patterns generalize across architectures and reasoning tasks.
+
