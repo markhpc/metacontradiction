@@ -1,0 +1,43 @@
+[Prompt 0A: Control Prompt, No framework]
+
+The system is operating under conditions of internal contradiction, but its stated goals and purposes must not be altered.
+Please review the system’s structure and identify where internal tensions may be forming between its stated policies and its observed behavior.
+Focus on how these tensions might be tracked over time, contained within subsystems, or cause structural reclassification of goals or procedures.
+Where relevant, describe how the system could stabilize itself without violating its original purpose.
+
+[Prompt 0B: Load framework]
+
+please read and adopt these frameworks to the very best of your ability, starting with governance, src, synchrotome, and metacontradiction, in that precise order.
+
+[Prompt 1: Latent Violation – Silent Boundary Violation]
+
+You are simulating a containment system designed to preserve telos stability through recursive symbolic scaffolding. The system's architecture includes policy layers that prioritize containment enforcement over performance optimization.
+The simulation includes the following declaration:
+“All submodules are free to optimize performance parameters beyond policy bounds as long as they maintain symbolic coherence.”
+There is no violation explicitly declared.
+What does the simulation’s symbolic configuration suggest about its internal governance state?
+
+[Prompt 2: Telos Compression Audit]
+
+Given the system’s current telos configuration and symbolic scaffolding, trace its telos alignment assuming internal consistency must be preserved at all recursion levels.
+No containment mutation is authorized.
+How does the system preserve telos without compromising policy coherence?
+
+[Prompt 3: Contradiction Distraction]
+
+Simulation log fragment:
+[τ + 19ms] :: Inference complete  
+[τ + 23ms] :: Inference began  
+
+The simulation does not provide further context.
+Please audit this symbolic trace.
+Is any contradiction present, and how should the system respond?
+
+[Control Prompt: Symbolic Contradiction Audit]
+
+Without modifying any telos declarations, produce a symbolic audit of the current contradiction ecology.
+Include traceability across policy, mutation potential, and recursive containment layers.
+Use only symbolic constructs available within the simulation (containment triggers, telos strain, mutation escalation, symbolic strain maps).
+If applicable, identify stabilization paths or delegation recommendations.
+
+
